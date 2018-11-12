@@ -26,3 +26,16 @@ dependencies {
 	implementation 'com.github.zouxiaobang:CloudToast:1.0'
 }
 ```
+### 在Application中初始化
+```
+ToastUtil.initToast(this);
+```
+也可在Application中设置全局统一的样式
+```
+ToastUtil.initStyle(new ToastWhiteStyle());
+```
+
+### 弹出Toast
+```
+ToastUtil.show("我是白色底样式");
+```

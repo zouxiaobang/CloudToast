@@ -11,14 +11,18 @@
 
 ## 使用
 ### 在项目gradle文件中：
+```
 allprojects {
  	repositories {
 		...
 		maven { url 'https://jitpack.io' }
 	}
 }
+```
   
 ### 在模块gradle文件中：
+```
 dependencies {
 	implementation 'com.github.zouxiaobang:CloudToast:1.0'
 }
+```
